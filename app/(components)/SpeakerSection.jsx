@@ -8,7 +8,7 @@ const SpeakerSection = () => {
       <div className="max-w-screen-lg flex flex-col items-center px-4 md:px-8 lg:justify-between lg:flex-row">
         <div className="">
         <h1 className="text-4xl font-bold text-center lg:text-left pb-4">Our Speakers</h1>
-        <p className="text-white max-w-sm pt-14 hidden lg:block">{defaultText}</p>
+        <p className="text-white max-w-sm pt-14 hidden lg:block">"Meet our diverse speakers, from an author to a CEO, each sharing insights on embracing failure and moving forward courageously.</p>
         </div>
         <div className="grid grid-cols-2 gap-4 md:grid-cols-3">
           <SpeakerCard 

@@ -94,7 +94,7 @@ function HeroComp() {
               <div className="-mx-6 grid grid-cols-2 gap-4 md:-mx-8 md:flex md:divide-x">
                 <div className="px-6 md:px-8">
                   <span className="block text-center text-lg font-bold text-red-500 md:text-left md:text-xl">
-                    <Number n={100} />
+                    100
                   </span>
                   <span className="block text-center text-sm font-semibold text-gray-200 md:text-left md:text-base">
                     Seats
