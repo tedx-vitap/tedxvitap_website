@@ -40,9 +40,7 @@ const GalleryComp = () => {
 
               <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
 
-              <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">
-                VR
-              </span>
+             
             </a>
 
             <a
@@ -58,9 +56,7 @@ const GalleryComp = () => {
 
               <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
 
-              <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">
-                Tech
-              </span>
+              
             </a>
 
             <a
@@ -76,9 +72,7 @@ const GalleryComp = () => {
 
               <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
 
-              <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">
-                Dev
-              </span>
+             
             </a>
 
             <a
@@ -94,9 +88,7 @@ const GalleryComp = () => {
 
               <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
 
-              <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">
-                Retro
-              </span>
+           
             </a>
           </div>
         </div>
