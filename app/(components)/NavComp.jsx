@@ -7,9 +7,8 @@ import {
   Link,
   Button,
 } from "@nextui-org/react";
-import { tedxvitapLogo } from "./tedxvitapLogo";
-import  Ticket  from "./svg/ticket_svg";
 
+import  Ticket  from "./svg/ticket_svg";
 
 import navLogo from "../../public/navLogo.png";
 import Image from "next/image";

@@ -1,36 +1,28 @@
-'use client';
+"use client";
 import React from "react";
-import {useSpring, animated} from "react-spring";
+import { useSpring, animated } from "react-spring";
 
-function Number({n}) {
-  const {number} = useSpring({
-    from : {number : 0},
-    number : n,
-    delay : 500,
-    config: {mass : 1, tension : 20, friction : 10},
+function Number({ n }) {
+  const { number } = useSpring({
+    from: { number: 0 },
+    number: n,
+    delay: 500,
+    config: { mass: 1, tension: 20, friction: 10 },
   });
 
-  return <animated.div>{number.to((n) => n.toFixed(0))}</animated.div>
+  return <animated.div>{number.to((n) => n.toFixed(0))}</animated.div>;
 }
 
-
 function HeroComp() {
-
-
-
-
   return (
     <div>
-      <div>
-
-      </div>
-      <div className="top-0 flex max-w-full justify-center pt-28">
+      <div className="z-20 top-0 flex max-w-full justify-center pt-28">
         <div className=" pb-6 sm:pb-8 lg:pb-12 max-w-screen-lg">
           <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
             <section className="mb-8 flex flex-col justify-between gap-6 sm:gap-10 md:mb-16 md:gap-16 lg:flex-row">
               <div className="flex flex-col justify-center sm:text-center lg:py-12 lg:text-left xl:w-5/12">
                 <p className="mb-4 font-semibold text-red-500 md:mb-6 md:text-lg xl:text-xl">
-                  Third time at VIT-AP
+                  Join us this April 27th
                 </p>
 
                 <h1 className="mb-8 text-4xl font-bold text-white sm:text-5xl md:mb-12 md:text-6xl">
@@ -38,46 +30,72 @@ function HeroComp() {
                 </h1>
 
                 <div className="flex flex-col gap-2.5 sm:flex-row sm:justify-center lg:justify-start">
-                <a href="https://vtop1.vitap.ac.in/TEDX/Conferenceinitial" target="_blank" class="relative inline-flex items-center justify-center px-6 py-3 overflow-hidden font-bold text-white rounded-md shadow-2xl group">
-    <span class="absolute inset-0 w-full h-full transition duration-300 ease-out opacity-0 bg-gradient-to-br from-red-600 via-red-700 to-orange-700 group-hover:opacity-100"></span>
-    {/* <!-- Top glass gradient --> */}
-    <span class="absolute top-0 left-0 w-full bg-gradient-to-b from-white to-transparent opacity-5 h-1/3"></span>
-    {/* <!-- Bottom gradient --> */}
-    <span class="absolute bottom-0 left-0 w-full h-1/3 bg-gradient-to-t from-white to-transparent opacity-5"></span>
-    {/* <!-- Left gradient --> */}
-    <span class="absolute bottom-0 left-0 w-4 h-full bg-gradient-to-r from-white to-transparent opacity-5"></span>
-    {/* <!-- Right gradient --> */}
-    <span class="absolute bottom-0 right-0 w-4 h-full bg-gradient-to-l from-white to-transparent opacity-5"></span>
-    <span class="absolute inset-0 w-full h-full border border-white rounded-md opacity-10"></span>
-    <span class="absolute w-0 h-0 transition-all duration-300 ease-out bg-white rounded-full group-hover:w-56 group-hover:h-56 opacity-5"></span>
-    <span class="relative flex">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
-        <path fill-rule="evenodd" d="M1.5 6.375c0-1.036.84-1.875 1.875-1.875h17.25c1.035 0 1.875.84 1.875 1.875v3.026a.75.75 0 01-.375.65 2.249 2.249 0 000 3.898.75.75 0 01.375.65v3.026c0 1.035-.84 1.875-1.875 1.875H3.375A1.875 1.875 0 011.5 17.625v-3.026a.75.75 0 01.374-.65 2.249 2.249 0 000-3.898.75.75 0 01-.374-.65V6.375zm15-1.125a.75.75 0 01.75.75v.75a.75.75 0 01-1.5 0V6a.75.75 0 01.75-.75zm.75 4.5a.75.75 0 00-1.5 0v.75a.75.75 0 001.5 0v-.75zm-.75 3a.75.75 0 01.75.75v.75a.75.75 0 01-1.5 0v-.75a.75.75 0 01.75-.75zm.75 4.5a.75.75 0 00-1.5 0V18a.75.75 0 001.5 0v-.75zM6 12a.75.75 0 01.75-.75H12a.75.75 0 010 1.5H6.75A.75.75 0 016 12zm.75 2.25a.75.75 0 000 1.5h3a.75.75 0 000-1.5h-3z" clip-rule="evenodd" />
-      </svg>
-      <span class="ml-2">Book Now!</span>
-    </span>
-</a>
+                  <a
+                    href="https://vtop1.vitap.ac.in/TEDX/Conferenceinitial"
+                    target="_blank"
+                    class="relative inline-flex items-center justify-center px-6 py-3 overflow-hidden font-bold text-white rounded-md shadow-2xl group"
+                  >
+                    <span class="absolute inset-0 w-full h-full transition duration-300 ease-out opacity-0 bg-gradient-to-br from-red-600 via-red-700 to-orange-700 group-hover:opacity-100"></span>
+                    {/* <!-- Top glass gradient --> */}
+                    <span class="absolute top-0 left-0 w-full bg-gradient-to-b from-white to-transparent opacity-5 h-1/3"></span>
+                    {/* <!-- Bottom gradient --> */}
+                    <span class="absolute bottom-0 left-0 w-full h-1/3 bg-gradient-to-t from-white to-transparent opacity-5"></span>
+                    {/* <!-- Left gradient --> */}
+                    <span class="absolute bottom-0 left-0 w-4 h-full bg-gradient-to-r from-white to-transparent opacity-5"></span>
+                    {/* <!-- Right gradient --> */}
+                    <span class="absolute bottom-0 right-0 w-4 h-full bg-gradient-to-l from-white to-transparent opacity-5"></span>
+                    <span class="absolute inset-0 w-full h-full border border-white rounded-md opacity-10"></span>
+                    <span class="absolute w-0 h-0 transition-all duration-300 ease-out bg-white rounded-full group-hover:w-56 group-hover:h-56 opacity-5"></span>
+                    <span class="relative flex">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        class="w-6 h-6"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M1.5 6.375c0-1.036.84-1.875 1.875-1.875h17.25c1.035 0 1.875.84 1.875 1.875v3.026a.75.75 0 01-.375.65 2.249 2.249 0 000 3.898.75.75 0 01.375.65v3.026c0 1.035-.84 1.875-1.875 1.875H3.375A1.875 1.875 0 011.5 17.625v-3.026a.75.75 0 01.374-.65 2.249 2.249 0 000-3.898.75.75 0 01-.374-.65V6.375zm15-1.125a.75.75 0 01.75.75v.75a.75.75 0 01-1.5 0V6a.75.75 0 01.75-.75zm.75 4.5a.75.75 0 00-1.5 0v.75a.75.75 0 001.5 0v-.75zm-.75 3a.75.75 0 01.75.75v.75a.75.75 0 01-1.5 0v-.75a.75.75 0 01.75-.75zm.75 4.5a.75.75 0 00-1.5 0V18a.75.75 0 001.5 0v-.75zM6 12a.75.75 0 01.75-.75H12a.75.75 0 010 1.5H6.75A.75.75 0 016 12zm.75 2.25a.75.75 0 000 1.5h3a.75.75 0 000-1.5h-3z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                      <span class="ml-2">Book Now!</span>
+                    </span>
+                  </a>
 
-<a href="https://shop.tedxvitap.com/" target="_blank" class="relative inline-flex items-center justify-center px-6 py-3 overflow-hidden font-bold text-white rounded-md shadow-2xl group">
-    <span class="absolute inset-0 w-full h-full transition duration-300 ease-out opacity-0 bg-gradient-to-br from-green-600 via-teal-700 to-blue-700 group-hover:opacity-100"></span>
-    {/* <!-- Top glass gradient --> */}
-    <span class="absolute top-0 left-0 w-full bg-gradient-to-b from-white to-transparent opacity-5 h-1/3"></span>
-    {/* <!-- Bottom gradient --> */}
-    <span class="absolute bottom-0 left-0 w-full h-1/3 bg-gradient-to-t from-white to-transparent opacity-5"></span>
-    {/* <!-- Left gradient --> */}
-    <span class="absolute bottom-0 left-0 w-4 h-full bg-gradient-to-r from-white to-transparent opacity-5"></span>
-    {/* <!-- Right gradient --> */}
-    <span class="absolute bottom-0 right-0 w-4 h-full bg-gradient-to-l from-white to-transparent opacity-5"></span>
-    <span class="absolute inset-0 w-full h-full border border-white rounded-md opacity-10"></span>
-    <span class="absolute w-0 h-0 transition-all duration-300 ease-out bg-white rounded-full group-hover:w-56 group-hover:h-56 opacity-5"></span>
-    <span class="relative flex">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
-        <path fill-rule="evenodd" d="M7.5 6v.75H5.513c-.96 0-1.764.724-1.865 1.679l-1.263 12A1.875 1.875 0 004.25 22.5h15.5a1.875 1.875 0 001.865-2.071l-1.263-12a1.875 1.875 0 00-1.865-1.679H16.5V6a4.5 4.5 0 10-9 0zM12 3a3 3 0 00-3 3v.75h6V6a3 3 0 00-3-3zm-3 8.25a3 3 0 106 0v-.75a.75.75 0 011.5 0v.75a4.5 4.5 0 11-9 0v-.75a.75.75 0 011.5 0v.75z" clip-rule="evenodd" />
-      </svg>
-      
-      <span class="ml-2">Merch on Store</span>
-    </span>
-</a>
+                  <a
+                    href="https://shop.tedxvitap.com/"
+                    target="_blank"
+                    class="relative inline-flex items-center justify-center px-6 py-3 overflow-hidden font-bold text-white rounded-md shadow-2xl group"
+                  >
+                    <span class="absolute inset-0 w-full h-full transition duration-300 ease-out opacity-0 bg-gradient-to-br from-green-600 via-teal-700 to-blue-700 group-hover:opacity-100"></span>
+                    {/* <!-- Top glass gradient --> */}
+                    <span class="absolute top-0 left-0 w-full bg-gradient-to-b from-white to-transparent opacity-5 h-1/3"></span>
+                    {/* <!-- Bottom gradient --> */}
+                    <span class="absolute bottom-0 left-0 w-full h-1/3 bg-gradient-to-t from-white to-transparent opacity-5"></span>
+                    {/* <!-- Left gradient --> */}
+                    <span class="absolute bottom-0 left-0 w-4 h-full bg-gradient-to-r from-white to-transparent opacity-5"></span>
+                    {/* <!-- Right gradient --> */}
+                    <span class="absolute bottom-0 right-0 w-4 h-full bg-gradient-to-l from-white to-transparent opacity-5"></span>
+                    <span class="absolute inset-0 w-full h-full border border-white rounded-md opacity-10"></span>
+                    <span class="absolute w-0 h-0 transition-all duration-300 ease-out bg-white rounded-full group-hover:w-56 group-hover:h-56 opacity-5"></span>
+                    <span class="relative flex">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        class="w-6 h-6"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M7.5 6v.75H5.513c-.96 0-1.764.724-1.865 1.679l-1.263 12A1.875 1.875 0 004.25 22.5h15.5a1.875 1.875 0 001.865-2.071l-1.263-12a1.875 1.875 0 00-1.865-1.679H16.5V6a4.5 4.5 0 10-9 0zM12 3a3 3 0 00-3 3v.75h6V6a3 3 0 00-3-3zm-3 8.25a3 3 0 106 0v-.75a.75.75 0 011.5 0v.75a4.5 4.5 0 11-9 0v-.75a.75.75 0 011.5 0v.75z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+
+                      <span class="ml-2">Checkout Merch</span>
+                    </span>
+                  </a>
                 </div>
               </div>
               <div className="h-48 overflow-hidden rounded-lg bg-gray-100 shadow-lg lg:h-96 xl:w-5/12">
@@ -186,8 +204,6 @@ function HeroComp() {
                       <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
                     </svg>
                   </a>
-
-                  
                 </div>
               </div>
             </section>

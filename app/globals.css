@@ -2,9 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-    background-image: "https://i.postimg.cc/jqhPSwrt/Frame-2-2.png";
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position: top;
-}
+/* body {
+  background-position: top;
+  background-size: 40px 40px;
+  background-image: linear-gradient(to right, rgb(0, 0, 0) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(0, 0, 0) 1px, transparent 1px);
+
+} */
+
+body {
+    background-image: radial-gradient(rgba(19, 19, 19, 0.404) 2px, transparent 0);
+    background-size: 37px 37px;
+    background-position: -19px -19px;
+  }
