@@ -18,7 +18,7 @@ const GalleryComp = () => {
             </div>
 
             <a
-              href="#gallery"
+              href="https://www.youtube.com/@TEDxVITAP"
               className="inline-block rounded-lg border bg-white px-4 py-2 text-center text-sm font-semibold text-gray-500 outline-none ring-indigo-300 transition duration-100 hover:bg-red-500 hover:text-black hover: border-black focus-visible:ring active:bg-gray-200 md:px-8 md:py-3 md:text-base"
             >
               More
