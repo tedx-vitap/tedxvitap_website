@@ -18,7 +18,7 @@ const GalleryComp = () => {
             </div>
 
             <a
-              href="#gallery"
+              href="https://www.youtube.com/@TEDxVITAP"
               className="inline-block rounded-lg border bg-white px-4 py-2 text-center text-sm font-semibold text-gray-500 outline-none ring-indigo-300 transition duration-100 hover:bg-red-500 hover:text-black hover: border-black focus-visible:ring active:bg-gray-200 md:px-8 md:py-3 md:text-base"
             >
               More
@@ -32,7 +32,7 @@ const GalleryComp = () => {
               id = "gallery"
             >
               <img
-                src="https://i.postimg.cc/tT6Sddtr/tedx2.jpg"
+                src="https://i.postimg.cc/kGsRDhG4/tedx1.webp"
                 loading="lazy"
                 alt="Photo by Minh Pham"
                 className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
@@ -48,7 +48,7 @@ const GalleryComp = () => {
               className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80"
             >
               <img
-                src="https://i.postimg.cc/nrvWxKXs/tedx1.jpg"
+                src="https://i.postimg.cc/Y2Rv6Z22/tedx2.webp"
                 loading="lazy"
                 alt="Photo by Magicle"
                 className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
@@ -64,7 +64,7 @@ const GalleryComp = () => {
               className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80"
             >
               <img
-                src="https://i.postimg.cc/NFwNdydQ/tedx3.jpg"
+                src="https://i.postimg.cc/SKbQFfQt/tedx3.webp"
                 loading="lazy"
                 alt="Photo by Martin Sanchez"
                 className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
@@ -80,7 +80,7 @@ const GalleryComp = () => {
               className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80"
             >
               <img
-                src="https://i.postimg.cc/N0SCrCT9/tedx4.jpg"
+                src="https://i.postimg.cc/05VNMSZb/tedx4.webp"
                 loading="lazy"
                 alt="Photo by Lorenzo Herrera"
                 className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"

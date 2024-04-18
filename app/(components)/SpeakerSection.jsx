@@ -22,42 +22,42 @@ const SpeakerSection = () => {
             disc="Author and Publisher"
             name="Sanjay Lunia Jain"
             link="https://www.instagram.com/authorsanjay/"
-            image={"https://i.postimg.cc/CxvmZxTv/Sanjay.png"}
+            image={"https://i.postimg.cc/GhpHqK9F/Sanjay.webp"}
           />
           <SpeakerCard
             title="Speaker"
             disc="Author and Publisher"
             name="Dr. Madhan K"
             link="https://www.linkedin.com/in/drmadhaniimcal/?originalSubdomain=in"
-            image={"https://i.postimg.cc/BvfK65LJ/Dr-Madhan-K.png"}
+            image={"https://i.postimg.cc/43cKp3yj/Madhan.webp"}
           />
           <SpeakerCard
             title="Speaker"
             disc="Author and Publisher"
             name="Sagarikka S"
             link="https://www.instagram.com/sagarikka/?hl=en"
-            image={"https://i.postimg.cc/cHst7sBj/Sagarikka.jpg"}
+            image={"https://i.postimg.cc/2SZjKKYZ/Sagarikka.webp"}
           />
           <SpeakerCard
             title="Speaker"
             disc="Author and Publisher"
             name="Narendra Nath"
             link="https://www.instagram.com/narencloseup/"
-            image={"https://i.postimg.cc/L55q7N73/Narendra.png"}
+            image={"https://i.postimg.cc/xCSX5Sb8/Narendra.webp"}
           />
           <SpeakerCard
             title="Speaker"
             disc="Author and Publisher"
             name="Aaryan Banthia"
             link="https://www.instagram.com/aaryanofficialmusic/"
-            image={"https://i.postimg.cc/ZK03D5zz/aaryan.png"}
+            image={"https://i.postimg.cc/L5xhmYQg/aaryan.webp"}
           />
           <SpeakerCard
             title="Speaker"
             disc="Author and Publisher"
             name="Chandan Perla"
             link="https://www.instagram.com/authorsanjay/"
-            image={"https://i.postimg.cc/0QcMcLtN/chandan.png"}
+            image={"https://i.postimg.cc/V6BdHHjR/chandan.webp"}
           />
         </div>
       </div>

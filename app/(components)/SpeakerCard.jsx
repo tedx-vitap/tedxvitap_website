@@ -19,8 +19,9 @@ export default function App({ title, name, disc, image, link }) {
           color="default"
           radius="lg"
           size="sm"
+          
         >
-          Profile
+          <a href={link}>Profile</a>
         </Button>
       </CardFooter>
     </Card>
