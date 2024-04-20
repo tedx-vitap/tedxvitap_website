@@ -8,12 +8,14 @@ export default function Team() {
                 MEET THE TEAM
             </div>
             <div className="pt-8 grid grid-cols-2 gap-3 md:grid-cols-4 md:gap-14 ">
-                {TeamData.map((person) => (
-                    <TeamCard
-                        name={person.name}
-                        position={person.position}
-                        image={person.image}
-                    />
+                {TeamData.map((person, index) => (
+                    <div key={index}>
+                        <TeamCard
+                            name={person.name}
+                            position={person.position}
+                            image={person.image}
+                        />
+                    </div>
                 ))}            
             </div>
         </div>
