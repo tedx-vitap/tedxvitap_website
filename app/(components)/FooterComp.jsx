@@ -7,7 +7,7 @@ const Footer = () => {
       <footer className="bg-zinc-900">
         <div className="mx-auto max-w-screen-lg px-4 py-8 sm:px-6 lg:px-8">
           <div className="flex flex-col gap-4 items-center justify-center md:flex-row md:justify-between">
-            <a href="tedxvitap.com" className="flex flex-col items-center md:items-start">
+            <a href="https://tedxvitap.com/" className="flex flex-col items-center md:items-start">
               <Image src={logo} alt="TEDxVITAP" className="max-w-52" />
               <p className="pl-4 text-gray-500 text-sm">
                 Copyright &copy; 2024 TEDxVITAP. All rights reserved.
