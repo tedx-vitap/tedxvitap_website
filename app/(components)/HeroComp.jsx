@@ -64,7 +64,7 @@ function HeroComp() {
                   </a>
 
                   <a
-                    href="https://shop.tedxvitap.com/"
+                    href="tedxvitap.com/"
                     target="_blank"
                     class="relative inline-flex items-center justify-center px-6 py-3 overflow-hidden font-bold text-white rounded-md shadow-2xl group"
                   >
