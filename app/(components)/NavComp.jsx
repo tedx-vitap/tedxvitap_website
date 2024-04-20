@@ -18,7 +18,7 @@ export default function App() {
     <Navbar maxWidth="lg" position="sticky" className="fixed top-0">
       <NavbarBrand>
         <a href="tedxvitap.com" className="max-w-52">
-          <Image src={navLogo} alt="TEDxVITAP"/>
+          <Image src={navLogo} alt="TEDx VITAP"/>
         </a>
       </NavbarBrand>
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
