@@ -56,7 +56,7 @@ const SpeakerSection = () => {
             title="Speaker"
             disc="Author and Publisher"
             name="Chandan Perla"
-            link="https://www.instagram.com/authorsanjay/"
+            link="https://www.instagram.com/chandan_perla/"
             image={"https://i.postimg.cc/V6BdHHjR/chandan.webp"}
           />
         </div>
