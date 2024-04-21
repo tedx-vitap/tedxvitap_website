@@ -17,7 +17,7 @@ export default function App() {
   return (
     <Navbar maxWidth="lg" position="sticky" className="fixed top-0">
       <NavbarBrand>
-        <a href="tedxvitap.com" className="max-w-52">
+        <a href="#" className="max-w-52">
           <Image src={navLogo} alt="TEDxVITAP"/>
         </a>
       </NavbarBrand>
